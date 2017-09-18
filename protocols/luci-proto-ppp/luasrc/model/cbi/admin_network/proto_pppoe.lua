@@ -31,9 +31,9 @@ service.placeholder = translate("auto")
 
 req_mac = section:taboption("general", Value, "req_mac",
 	"req_mac",
-	"Leave empty to autodetect")
+	"Leave empty to no set")
 
-service.placeholder = translate("auto")
+req_mac.placeholder = "reqmac"
 
 
 
