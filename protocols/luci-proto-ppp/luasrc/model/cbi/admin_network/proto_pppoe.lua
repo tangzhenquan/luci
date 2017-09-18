@@ -29,6 +29,14 @@ service = section:taboption("general", Value, "service",
 service.placeholder = translate("auto")
 
 
+req_mac = section:taboption("general", Value, "req_mac",
+	"req_mac",
+	"Leave empty to autodetect")
+
+service.placeholder = translate("auto")
+
+
+
 if luci.model.network:has_ipv6() then
 
         ipv6 = section:taboption("advanced", ListValue, "ipv6")
