@@ -3,7 +3,7 @@
 
 local map, section, net = ...
 
-local username, password, ac, service
+local username, password, ac, service, req_mac
 local ipv6, defaultroute, metric, peerdns, dns,
       keepalive_failure, keepalive_interval, demand, mtu
 
